@@ -24,7 +24,7 @@
         box-sizing: border-box;
 }
 
-@media screen and (min-width: 450px) and (max-width:500px) {
+@media screen and (min-width: 450px) and (max-width:600px) {
         #warning-pop {
                 display: none;
         }
