@@ -1,0 +1,103 @@
+.stock-header {
+        margin-bottom: 20px;
+}
+.stock-header__icon {
+        display: flex;
+        justify-content: end;
+        font-size: 25px;
+        color: var(--color-darkgray-D);
+        margin-bottom: 20px;
+}
+.stock-header i {
+        margin-left: 20px;
+}
+.stock-header__title {
+        display: flex;
+        align-items: end;
+}
+.stock-header__title h1 {
+        margin-right: 20px;
+}
+
+
+
+
+
+
+/* 탭 */
+
+.stock-tab {
+        width: 100%;
+        display: flex;
+        margin-top: 40px;
+
+}
+
+.stock-tab .col {
+        width: 33%;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--color-lightgray);
+        border-bottom: solid 1px var(--line-basic);
+        padding: 20px 0;
+        position: relative;
+}
+
+.stock-tab .active {
+        width: 33%;
+        border-bottom: solid 2px var(--color-white);
+
+}
+.stock-tab .reddot-8 {
+        position: absolute;
+        top: 25px;
+        right: 10px;
+}
+
+/* 계좌 */
+.stock-pay {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 40px 20px;
+        box-sizing: border-box;
+}
+.stock-pay__title {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+}
+.stock-pay__pay {
+        display: flex;
+        width: 100%;
+}
+.stock-pay__pay .col:first-child {
+        font-size: 32px;
+        font-weight: 800;
+}
+.stock-pay__paylist {
+        display: flex;
+        flex-direction: column;
+}
+.stock-pay__paylist div {
+        padding: 10px 20px;
+}
+.stock-pay__paylist h4 {
+        font-weight: 600;
+}
+
+.stock-recently {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 36px 0 36px;
+}
+.stock-recently h1 {
+        font-weight: 600;
+        font-size: 22px;
+}
+.stock-recently h6 {
+        font-size: 16px;
+        margin-top: 20px;
+        color: var(--color-lightgray);
+}

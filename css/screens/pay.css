@@ -1,0 +1,39 @@
+.pay-ad {
+        width: 100%;
+
+}
+.screenover__bg--darkblue {
+        background-color: var(--color-bg-darkblue);
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 20px 0;
+        font-size: 18px;
+        align-items: center;
+        padding-right: 20px;
+
+}
+
+.screenover__bg--darkblue .blue {
+        margin: 0 5px;
+}
+
+.pay-brand {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 16px;
+        align-items: center;
+}
+.pay-brand h4 {
+        font-weight: 600;
+}
+
+.pay-brand-ad {
+        width: 100%;
+        overflow: hidden;
+}
+.pay-brand-ad img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}

@@ -1,38 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/style.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to kokoa Clone</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toast Clone 2024 - home</title>
 </head>
 <body>
-    <div class="status-bar">
-        <div class="status-bar__column">
-            <span>No Service</span>
-            <i class="fa-solid fa-wifi"></i>
+        <!-- 공통 : status-bar 시작 -->
+        <div class="status-bar">
+                <div class="status-bar__column">
+                        <span>1:30</span>
+                        <i class="fa-solid fa-location-arrow"></i>
+                </div>
+                <div class="status-bar__column">
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-battery-three-quarters"></i>
+                </div>
+
         </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
-        </div>
-        <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fa-solid fa-battery-full fa-lg"></i>
-            <i class="fa-solid fa-bolt-lightning"></i>
-        </div>
-    </div>
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">
-            If you have a Kokoa Account, log in with your email or phone number.
-        </p>
-    </header>
-    <form action="friends.html" method="GET" id="login-form">
-        <input name="username" type="text" placeholder="Email of Phone number" />
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log In" />
-        <a href="#">Find Kokoa Account or Password</a>
-    </form>
-    <script src="https://kit.fontawesome.com/29b4046224.js" crossorigin="anonymous"></script>
+        <div id="warning-pop">화면 창을 가로 460~480px로 조절해주세요 :)</div>
+        <!-- 공통 : status-bar 끝 -->
+        <!-- 공통 nav 시작 -->
+        <nav class="nav">
+                <ul class="nav__list">
+                        <li class="nav__item">
+                                <a href="index.html" class="active">
+                                        <i class="fa-solid fa-house"></i>
+                                        <span>홈</span>
+                                </a>
+                        </li>
+                        <li class="nav__item active">
+                                <a href="benefit.html">
+                                        <i class="fa-solid fa-utensils "></i>
+                                        <span>혜택</span>
+                                </a>
+                        </li>
+                        <li class="nav__item">
+                                <a href="pay.html">
+                                        <i class="fa-solid fa-bread-slice "></i>
+                                        <span>토스트페이</span>
+                                </a>
+                        </li>
+                        <li class="nav__item">
+                                <a href="stock.html">
+                                        <i class="fa-solid fa-hotdog "></i>
+                                        <span>주식</span>
+                                </a>
+                        </li>
+                        <li class="nav__item">
+                                <a href="all.html">
+                                        <i class="fa-solid fa-bars "></i>
+                                        <span>전체</span>
+                                </a>
+                        </li>
+                </ul>
+        </nav>
+        <!-- 공통 nav 끝 -->
+        <main class="pb-120">
+                <!-- home header -->
+                <div class="home-header">
+                        <div class="home-header__column">
+                                <div class="home-header__logo">
+                                        <i class="fa-solid fa-bread-slice"></i>
+                                        <span class="home-header__title">toast</span>
+                                </div>
+                        </div>
+                        <div class="home-header__column">
+                                <i class="fa-solid fa-jar"></i>
+                                
+                                <i class="fa-solid fa-bell"><span class="reddot-8"></span></i>
+                        </div>
+                </div>
+
+                <!------------------------------ box 1 ------------------------------>
+                <div class="boxA__darkgray">
+                        <div class="row justify-between">
+                                <div class="col">
+                                        <h2 class="home-banklink__title">토스트뱅크</h2>
+                                </div>
+                                <div class="col">
+                                        <i class="fa-solid fa-chevron-right darkgray"></i>
+                                </div>
+                        </div>
+                </div>
+
+                <!------------------------------ box 2 ------------------------------>
+                <div class="boxA__darkgray">
+                        <div class="row justify-between line-bottom">
+                                <div class="col">
+                                        <div class="row">
+                                                <div class="col icon-40 mr-24">
+                                                        <i class="fa-solid fa-bread-slice blue"></i>
+                                                </div>
+                                                <!------ List type A :start ------>
+                                                <div class="col">
+                                                        <span class="listA__i--l-money--b__label">ZU</span>
+                                                        <span class="listA__i--l-money--b__money">
+                                                                <span>9800</span>
+                                                                <span>원</span>
+                                                        </span>
+                                                </div>
+                                                <!------ List type A :end ------>
+                                        </div>         
+                                </div>
+                                <div class="col">
+                                        <button class="btnA__text--graybox">송금</button>
+                                </div>
+                        </div>
+                        <div class="row justify-center">
+                                <div class="btnC__text">
+                                        <span>내 계좌 · 대출 · 포인트 보기</span>
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                        </div>
+                </div>
+                <!------------------------------ box 3 ------------------------------>
+                <div class="boxA__darkgray">
+                        <div class="row justify-between line-bottom">
+                                <div class="col">
+                                        <div class="row">
+                                                <div class="col icon-40 mr-24">
+                                                        <i class="fa-solid fa-cookie-bite"></i>
+                                                </div>
+                                                <!------ List type A :start ------>
+                                                <div class="col">
+                                                        <span class="listA__i--l-money--b__label">5월에 쓴 돈</span>
+                                                        <span class="listA__i--l-money--b__money">
+                                                                <span>9800</span>
+                                                                <span>원</span>
+                                                        </span>
+                                                </div>
+                                                <!------ List type A :end ------>
+                                        </div>
+                                </div>
+                                <div class="col">
+                                        <button class="btnA__text--graybox">내역</button>
+                                </div>
+                        </div>
+                        <div class="row justify-between">
+                                <div class="col">
+                                        <div class="row">
+                                                <div class="col icon-36 mr-24">
+                                                        <i class="fa-solid fa-credit-card"></i>
+                                                </div>
+                                                <!------ List type A :start ------>
+                                                <div class="col">
+                                                        <span class="listA__i--l-money--b__label">5월 20일 낼 카드값</span>
+                                                        <span class="listA__i--l-money--b__money">
+                                                                <span>9800</span>
+                                                                <span>원</span>
+                                                        </span>
+                                                </div>
+                                                <!------ List type A :end ------>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <!------------------------------ box 4 ------------------------------>
+                <div class="boxA__darkgray">
+                        <div class="row justify-between line-bottom">
+                                <div class="col">
+                                        <div class="row">
+                                                <span class="icon-24 mr-12">
+                                                        <i class="fa-solid fa-fire-burner purple"></i>
+                                                </span>
+                                                <h4>내 신용점수</h4>
+                                        </div>
+                                </div>
+                                <div class="col">
+                                        <div class="row">
+                                                <span class="textboxB__orange">변동감지</span>
+                                                <i class="fa-solid fa-chevron-right ml-8 darkgray"></i>
+                                        </div>          
+                                </div>
+                        </div>
+                        <div class="row justify-around">
+                                <div class="col">
+                                        <h5>계좌개설</h5>
+                                </div>
+                                <div class="line"></div>
+                                <div class="col">
+                                        <h5>카드발급</h5>
+                                </div>
+                                <div class="line"></div>
+                                <div class="col">
+                                        <h5>대출받기</h5>
+                                </div>
+                        </div>
+                </div>
+
+                <!------------------------------ box 5 ------------------------------>
+                <div class="boxA__darkgray">
+                        <div class="row justify-between">
+                                <div class="home-service__title">
+                                        <h6>5월 20일 월요일</h6>
+                                        <h4>ZU님을 위해 준비했어요</h4>
+                                </div>
+                        </div>
+                        <div class="row justify-between">
+                                <div class="col boxB__border-darkgray">
+                                        <div class="listB__t-i">
+                                                <span>신용카드</br>혜택 추천</span>
+                                                <i class="fa-solid fa-ranking-star fa-lg purple"></i>
+                                        </div>
+                                </div>
+                                <div class="gap40"></div>
+                                <div class="col boxB__border-darkgray">
+                                        <div class="listB__t-i">
+                                                <span>대출 한도</br>조회</span>
+                                                <i class="fa-solid fa-magnifying-glass fa-lg green"></i>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="row justify-between">
+                                <div class="col">
+                                        <div class="row">
+                                                <span class="icon-16 mr-12">
+                                                        <i class="fa-solid fa-wallet"></i>
+                                                </span>
+                                                <h5>내 자산</h5>
+                                        </div>
+                                </div>
+                                <div class="col">
+                                        <i class="fa-solid fa-chevron-right ml-8 darkgray"></i>
+                                </div>
+                        </div>
+                        <div class="row justify-between mt-24">
+                                <div class="col">
+                                        <div class="row">
+                                                <span class="icon-16 mr-12">
+                                                        <i class="fa-solid fa-credit-card"></i>
+                                                </span>
+                                                <h5>카드값</h5>
+                                        </div>
+                                </div>
+                                <div class="col">
+                                        <i class="fa-solid fa-chevron-right ml-8 darkgray"></i>
+                                </div>
+                        </div>
+                        <div class="row justify-between mt-24 line-bottom">
+                                <div class="col">
+                                        <div class="row">
+                                                <span class="icon-16 mr-12">
+                                                        <i class="fa-solid fa-download blue"></i>
+                                                </span>
+                                                <h5>버튼 누르고 10원 받기</h5>
+                                        </div>
+                                </div>
+                                <div class="col">
+                                        <i class="fa-solid fa-chevron-right ml-8 darkgray"></i>
+                                </div>
+                        </div>
+                        <div class="row justify-center">
+                                <div class="link__text--center">
+                                        <span>추천 서비스 더보기</span>
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                        </div>
+                </div>
+                
+                <!------------------------------ box 6 ------------------------------>
+                <div class="boxA__darkgray">
+                        <div class="row justify-between">
+                                <div class="col">
+                                        <div class="row">
+                                                <div class="col icon-40 mr-24">
+                                                        <i class="fa-solid fa-download blue animation"></i>
+                                                </div>
+                                                <!------ List type A :start ------>
+                                                <div class="col">
+                                                        <span class="listA__i--l-money--b__label">매일 3번</span>
+                                                        <span class="listA__i--l-money--b__money">
+                                                                <span>버튼 누르고</span>
+                                                        </span>
+                                                </div>
+                                                <!------ List type A :end ------>
+                                        </div>         
+                                </div>
+                                <div class="col">
+                                        <button class="btnB__text--bluebox">30원 받기</button>
+                                </div>
+                        </div>
+                </div>
+                
+                <span class="btnC__text mt-16"> 개인정보처리방침 보기</span>
+        </main>
+
+        
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/29b4046224.js" crossorigin="anonymous"></script>
 </body>
 </html>

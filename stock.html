@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toast Clone 2024 - home</title>
+</head>
+<body>
+        <!-- 공통 : status-bar 시작 -->
+        <div class="status-bar">
+                <div class="status-bar__column">
+                        <span>1:30</span>
+                        <i class="fa-solid fa-location-arrow"></i>
+                </div>
+                <div class="status-bar__column">
+                        <i class="fa-solid fa-wifi"></i>
+                        <i class="fa-solid fa-battery-three-quarters"></i>
+                </div>
+        </div>
+        <div id="warning-pop">화면 창을 가로 460~480px로 조절해주세요 :)</div>
+        <!-- 공통 : status-bar 끝 -->
+        <!-- 공통 nav 시작 -->
+        <nav class="nav">
+                <ul class="nav__list">
+                        <li class="nav__item">
+                                <a href="index.html">
+                                        <i class="fa-solid fa-house"></i>
+                                        <span>홈</span>
+                                </a>
+                        </li>
+                        <li class="nav__item active">
+                                <a href="benefit.html">
+                                        <i class="fa-solid fa-utensils "></i>
+                                        <span>혜택</span>
+                                </a>
+                        </li>
+                        <li class="nav__item">
+                                <a href="pay.html">
+                                        <i class="fa-solid fa-bread-slice "></i>
+                                        <span>토스트페이</span>
+                                </a>
+                        </li>
+                        <li class="nav__item">
+                                <a href="stock.html" class="active">
+                                        <i class="fa-solid fa-hotdog "></i>
+                                        <span>주식</span>
+                                </a>
+                        </li>
+                        <li class="nav__item">
+                                <a href="all.html">
+                                        <i class="fa-solid fa-bars "></i>
+                                        <span>전체</span>
+                                </a>
+                        </li>
+                </ul>
+        </nav>
+        <!-- 공통 nav 끝 -->
+        <main>
+              <div class="stock-header">
+                        <div class="stock-header__icon">   
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <div class="stock-header__title">
+                                <h1>토스증권</h1>
+                                <h6>코스피 <span class="red">2,725.34 +0.06%</span></h6>
+                        </div>
+              </div>
+              <div class="popA__i-t-l">
+                <div class="col">
+                        <div class="row">
+                                <img src="https://search.pstatic.net/common?type=o&size=108x81&quality=75&direct=true&src=http%3A%2F%2Fdbscthumb.phinf.naver.net%2F1230_000_1%2F20120625174547033_D0O1SER5Z.png%2F155_p.png%3Ftype%3Dm1500"/>
+                                <div class="col">
+                                        <h4>미국 주식 결제일이 짧아져요</h4>
+                                        <div class="btnC__text blue justify-start align-center">
+                                                <span>자세히 알아보기</span>
+                                                <i class="fa-solid fa-chevron-right"></i>
+                                        </div>
+                                </div>
+                        </div>
+                        
+                </div>
+                <div class="col">
+                        <i class="fa-solid fa-xmark gray icon-20"></i>
+                </div>
+              </div>
+
+              <!-- 탭 모양만 -->
+              <div class="stock-tab">
+                <div class="col active">내 주식</div>
+                <div class="col"><span class="reddot-8"></span>오늘의 발견</div>
+                <div class="col">뉴스</div>
+              </div>
+
+              <div class="stock-pay line-bottom">
+                <h3 class="stock-pay__title">계좌</h3>
+                <div class="stock-pay__pay justify-between align-center">
+                        <div class="col">9800원</div>
+                        <div class="col">
+                                <button class="textboxA__darkgray">채우기</button>
+                        </div>
+                </div>
+              </div>
+              <div class="stock-pay__paylist">
+                <div class="row justify-between">
+                        <h4>주문내역</h4> <i class="fa-solid fa-chevron-right gray"></i>
+                </div>
+                <div class="row justify-between">
+                        <h4>판매수익</h4> <i class="fa-solid fa-chevron-right gray"></i>
+                </div>
+              </div>
+        </main>
+        <div class="line-black"></div>
+        <div class="stock-recently">
+                <h1>최근 본 주식</h1>
+                <h6>최근 1달 이내에 본 주식이 없어요</h6>
+        </div>
+        <div class="line-black"></div>
+        <div class="pb-120"></div>
+
+        
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/29b4046224.js" crossorigin="anonymous"></script>
+</body>
+</html>

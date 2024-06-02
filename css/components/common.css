@@ -1,0 +1,197 @@
+body {
+        background-color: var(--color-bg-basic);
+        color: var(--color-white);
+        font-size: 16px;
+        font-family: "Noto Sans KR", "Poppins", sans-serif;
+        height: 100vh;
+        overflow: auto;
+}
+
+main {
+        margin-top: 40px;
+        padding: 0 16px 0 16px;
+}
+
+
+/**------------------------------ : 정렬 
+**/
+.col {
+        display: flex;
+        flex-direction: column;
+}
+.row {
+        display: flex;
+        align-items: center;
+}
+.justify-between {
+        justify-content: space-between;
+        align-items: center;
+}
+.justify-center {
+        justify-content: center !important;
+}
+.justify-around {
+        justify-content: space-around !important;
+}
+.justify-end {
+        justify-content: end;
+}
+.justify-start {
+        justify-content: start !important;
+}
+.align-center {
+        align-items: center;
+}
+
+/**------------------------------ : 활성화/비활성화 
+**/
+.active {
+        color: var(--color-white) !important;
+}
+
+
+/**------------------------------ : 요소 
+**/
+.reddot-8 {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: var(--color-red);
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+
+
+
+/**------------------------------ : 라인
+**/
+.line-bottom {
+        padding-bottom: 24px;
+        border-bottom:  solid #2D2B34;
+        margin-bottom: 24px;
+}
+
+
+.line {
+        height: 20px;
+        width: 1px;
+        background-color: var(--line-basic);
+}
+.line-black {
+        
+        width: 100%;
+        height: 20px;
+        background-color: #0C0C0F;
+        margin-top: 30px;
+}
+
+
+/**------------------------------ : 아이콘 크기
+**/
+.icon-12 {
+        font-size: 12px !important;
+}
+.icon-16 {
+        font-size: 16px !important;
+}
+.icon-24 {
+        font-size: 24px !important;
+}
+.icon-30 {
+        font-size: 30px !important;
+}
+.icon-36 {
+        font-size: 36px;
+}
+.icon-40 {
+        font-size: 40px;
+}
+
+
+
+/**------------------------------ : 폰트
+**/
+h1 {
+        font-size: 26px;
+        font-weight: 600;
+}
+h2 {
+        font-size: 24px;
+}
+h3 {
+        font-size: 22px;
+}
+h4 {
+        font-size: 20px;
+}
+h5 {
+        font-size: 17px;
+}
+h6 {
+        font-size: 15px;
+}
+
+
+
+/**------------------------------ : 공간
+**/
+.gap40 {
+        width: 40px;
+}
+.mt-16 {
+        margin-top: 16px;
+}
+.mt-24 {
+        margin-top: 24px;
+}
+.mt-30 {
+        margin-top: 30px;
+}
+.ml-8 {
+        margin-left: 8px;
+}
+.mr-16 {
+        margin-right: 16px;
+}
+.mr-12 {
+        margin-right: 12px;
+}
+.mr-24 {
+        margin-right: 24px;
+}
+.ptpb-20 {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+}
+.pb-120 {
+        padding-bottom: 120px;
+}
+.mrml-16 {
+        margin-right: 16px;
+        margin-left: 16px;
+}
+
+/**------------------------------ : 컬러
+**/
+.darkgray {
+        color: var(--color-darkgray);
+}
+.gray {
+        color: var(--color-lightgray);
+}
+.blue {
+        color: var(--color-blue) !important;
+}
+.purple {
+        color: var(--color-purple);
+}
+.green {
+        color: var(--color-green);
+}
+.red {
+        color: var(--color-red);
+}
+.yellow {
+        color: var(--color-yellow);
+}

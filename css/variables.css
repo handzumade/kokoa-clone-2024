@@ -1,3 +1,24 @@
 :root {
-    --yellow:#fae100;
+        --horiaontal-space : 15px 25px;
+        --color-bg-basic : #101012;
+        --color-bg-darkblue : #181E30;
+
+        --color-darkgray-A : #18171D;
+        --color-darkgray-B : #202027;
+        --color-darkgray-C : #2C2C36;
+        --color-darkgray-D : #3C3C46;
+
+        --color-white : #E4E4E4;        /* 활성화 컬러 */
+        --color-lightlightgray : #C9C9CD;
+        --color-lightgray : #9F9DA4;
+        --color-darkgray : #615F6B;     /* 비활성화 컬러 */
+        --color-red : #EF4551;
+        --color-blue : #397DFD;
+        --color-darkblue : #254C88;
+        --color-purple : #8863ff;
+        --color-green : #15C07E;
+        --color-yellow : #FFD638;
+        --color-orange : #FAA131;
+
+        --line-basic : #2D2B34;
 }

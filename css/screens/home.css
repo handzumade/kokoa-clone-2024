@@ -1,0 +1,51 @@
+/* home header */
+
+.home-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 28px;
+        color: var(--color-darkgray);
+        height: 48px;
+}
+
+.home-header__column i {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        text-align: center;
+        align-content: center;
+}
+
+.home-header__logo {
+        color: white;
+        font-family: "Poppins";
+        font-style: italic;
+}
+
+.home-header__logo span {
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: 1.2px;
+}
+
+
+/* home main __ banklink */
+
+.home-banklink__title {
+        font-size: 20px;
+        font-weight: 600;
+}
+
+
+/* home service */
+
+.home-service__title {
+        display: flex;
+        flex-direction: column;
+}
+
+.home-service__title h6 {
+        color: var(--color-lightgray);
+        margin-bottom: 8px;
+}

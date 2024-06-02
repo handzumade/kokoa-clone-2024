@@ -1,0 +1,271 @@
+
+/**------------------------------ : List
+**/
+
+/*  List typeA : 큰아이콘 + 위: 작은라벨 아래:가격 + 오른쪽 버튼 */
+.listA__i--l-money--b__label {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 8px;
+        color: var(--color-lightgray);
+}
+.listA__i--l-money--b__money {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 8px;
+}
+.listA__i--l-money--b__money span:first-child {
+        font-family: "Poppins" !important;
+        font-weight: 600;
+        font-size: 30px;
+}
+.listA__i--l-money--b__money span:last-child {
+        font-size: 24px;
+}
+
+/* List typeB : text + 아이콘 */
+.listB__t-i {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        line-height: 1.4;
+}
+
+/* List typeC : 큰 동그라미 icon + 위 : 리스트명 아래 : 설명 */
+.listC__i--t-l {
+       display: flex;
+       width: 100%;
+       justify-content: space-between;
+       margin: 30px 0;
+       align-items: center;
+}
+.listC__i--t-l__icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #2C2C35;
+        margin-right: 20px;
+        position: relative;
+}
+.listC__i--t-l__icon i {
+        font-size: 30px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+}
+.listC__i--t-l__text {
+        font-size: 20px;
+}
+.listC__i--t-l__label {
+        color: var(--color-blue);
+        margin-top: 8px;
+}
+
+/* List typeD : 큰 동그라미 icon + 아래 : 설명 위 : 리스트명  */
+.listD__i--l-t {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin: 30px 0 20px 0;
+        align-items: center;
+}
+.listD__i--l-t .col {
+        width: 45%;
+}
+.listD__i--l-t__icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #2C2C35;
+        margin-right: 20px;
+        position: relative;
+}
+.listD__i--l-t__icon i {
+        font-size: 30px;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+}
+.listD__i--l-t__text {
+        font-size: 20px;
+        margin-top: 8px;
+}
+.listD__i--l-t__label {
+        color: var(--color-lightgray);
+        position: relative;
+}
+
+
+/**------------------------------ : Btn
+**/
+
+/*  Btn typeA : text-bggray */
+.btnA__text--graybox {
+        background-color: var(--color-darkgray-C);
+        color: var(--color-lightlightgray);
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+}
+
+/*  Btn typeB : text-bgblue */
+.btnB__text--bluebox {
+        background-color: var(--color-blue);
+        color: var(--color-white);
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+}
+
+
+/*  Btn typeC : text > */
+.btnC__text {
+        font-size: 16px;
+        color: var(--color-lightgray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.btnC__text i {
+        margin-left: 8px;
+        font-size: 12px;
+}
+
+/*  Btn typeD : icon + text */
+.btnD__i-text--graybox {
+        display: flex;
+        background-color: var(--color-darkgray-C);
+        color: var(--color-lightgray);
+        padding: 8px 16px 9px 16px;
+        border-radius: 20px;
+        /* width: 80px; */
+        align-items: center;
+}
+.btnD__i-text--graybox i {
+        margin-right: 5px;
+}
+
+/*  Btn typeE : icon + text + border */
+.btnE__i-text--bordergray {
+        display: flex;
+        justify-content: center;
+        background-color: var(--color-darkgray-A);
+        color: var(--color-lightgray);
+        border: 1px solid var(--color-darkgray-D);
+        font-size: 18px;
+        border-radius: 15px;
+        padding: 20px 20px;
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;
+}
+.btnE__i-text--bordergray:first-child {
+        width: 60%;
+}
+.btnE__i-text--bordergray:last-child {
+        width: 38%;
+}
+.btnE__i-text--bordergray i {
+        margin-right: 10px;
+        font-size: 20px;
+}
+/**------------------------------ : Box
+**/
+
+/*  Box typeA : bg-darkgray */
+.boxA__darkgray {
+        background-color: var(--color-darkgray-A);
+        border-radius: 20px;
+        width: 100%;
+        padding: 32px 40px;
+        margin-top: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+}
+
+/*  Box typeB : border */
+.boxB__border-darkgray {
+        background-color: var(--color-darkgray-B);
+        border: 1px solid var(--color-darkgray-C);
+        border-radius: 10px;
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+}
+
+
+
+/**------------------------------ : Text-Box
+**/
+
+/*  Text-Box typeA : bg-darkgray */
+.textboxA__darkgray {
+        background-color: var(--color-darkgray-C);
+        color: var(--color-white);
+        padding: 8px 16px;
+        border-radius: 20px;
+        font-size: 15px;
+}
+
+/*  Text-Box typeA : bg-orange */
+.textboxB__orange {
+        background-color: #3C3425;
+        color: var(--color-orange);
+        padding: 8px 12px 9px 12px;
+        border-radius: 20px;
+        font-size: 15px;    
+}
+
+/*  Text-Box typeA : bg-orange */
+.textboxB__i-black-blue {
+        display: flex;
+        background-color: var(--color-darkgray-A);
+        color: var(--color-blue);
+        padding: 6px 12px 8px 12px;
+        border-radius: 20px;
+        font-size: 18px;    
+        align-items: center;
+        margin-right: 8px;
+}
+.textboxB__i-black-blue i {
+        color: var(--color-darkblue);
+        margin-right: 8px;
+}
+
+
+/**------------------------------ : Pop
+**/
+
+/*  Pop typeA : bg-darkgray */
+.popA__i-t-l {
+        display: flex;
+        background-color: var(--color-darkgray-B);
+        padding: 20px 30px;
+        border-radius: 20px;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.popA__i-t-l img {
+        width: 40px;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-right: 20px;
+}
+.popA__i-t-l h4 {
+        font-weight: 600;
+        color: var(--color-lightgray);
+        margin-bottom: 8px;
+}
+.popA__i-t-l h6 {
+        color: var(--color-blue);
+}

@@ -1,3 +1,3 @@
-# Kokoa Clone 2024 Update
+# Toast Clone 2024 ZU
 
-HTML & CSS are so much fun!
+Kokoa Clone Chellenge 2024

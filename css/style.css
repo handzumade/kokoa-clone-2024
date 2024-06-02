@@ -1,15 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import "reset.css";
 @import "variables.css";
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Components */
+@import "components/common.css";
+@import "components/type.css";
+@import "components/add.css";
 @import "components/status-bar.css";
-@import "components/nav-bar.css";
+@import "components/list-style.css";
+@import "components/nav.css";
 
 /* Screens */
-@import "screens/login.css";
+@import "screens/home.css";
+@import "screens/benefit.css";
+@import "screens/pay.css";
+@import "screens/stock.css";
+@import "screens/all.css";
 
-body {
-    font-family: "Roboto", sans-serif;
-    height: 1000vh;
+
+* {
+        box-sizing: border-box;
+}
+
+@media screen and (min-width: 450px) and (max-width:500px) {
+        #warning-pop {
+                display: none;
+        }
+}
+
+@keyframes click-animation {
+        0% {
+                transform: rotateY(0);
+        }
+        50% {
+                transform: rotateY(360deg);
+        }
+        100% {
+                transform: rotateY(0);
+        }
+}
+.animation {
+        animation: click-animation 5s ease-in-out infinite;
 }
